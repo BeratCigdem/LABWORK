@@ -4,13 +4,25 @@ int main(void)
 int number;
 printf("Enter a number between 0 and 100:");
 scanf("%d", &number);
-if(number>=45)
+if(number>=90)
 {
-printf("You passed the course");
+printf("A");
+}
+else if(number>=75)
+{
+printf("B");
+}
+else if(number>=55)
+{
+printf("C");
+}
+else if(number>=45)
+{
+printf("D");
 }
 else if(number<45)
 {
-printf("You failed the course");
+printf("F");
 }
 return (0);
 }
