@@ -1,3 +1,16 @@
 #include<stdio.h>
 int main(void)
 {
+int number;
+printf("Enter a number between 0 and 100:");
+scanf("%d", &number);
+if(number>=45)
+{
+printf("You passed the course");
+}
+else if(number<45)
+{
+printf("You failed the course");
+}
+return (0);
+}
